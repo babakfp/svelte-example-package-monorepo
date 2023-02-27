@@ -1,16 +1,12 @@
 {
 	"name": "my-package-name",
+	"description": "A description for the package.",
 	"version": "0.0.1",
-	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview"
-	},
-	"devDependencies": {
-		"@sveltejs/adapter-auto": "2.0.0",
-		"@sveltejs/kit": "1.5.0",
-		"svelte": "3.54.0",
-		"vite": "4.0.0"
+	"license": "MIT",
+	"repository": "github:<username>/<reponame>",
+	"homepage": "https://my-package-name.com",
+	"peerDependencies": {
+		"svelte": "3.x"
 	},
 	"type": "module"
 }
