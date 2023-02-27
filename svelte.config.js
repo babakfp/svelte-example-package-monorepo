@@ -6,6 +6,7 @@ const config = {
 		adapter: adapter(),
 		alias: {
 			"my-package-name": "src/package/index.js",
+			"my-package-name-packaged": "package/index.js",
 		},
 	},
 }
