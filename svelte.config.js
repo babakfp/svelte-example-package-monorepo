@@ -5,9 +5,9 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		alias: {
-			'my-package-name': 'src/package/index.js',
+			"my-package-name": "src/package/index.js",
 		},
-	}
+	},
 }
 
 export default config
