@@ -14,7 +14,7 @@
 ### Example 1
 
 ```js
-import myPackageName from "my-package-name"
+import { MyComponent, MyOtherComponent } from "my-package-name"
 ```
 
 ### Example 2
