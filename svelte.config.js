@@ -4,6 +4,9 @@ import adapter from "@sveltejs/adapter-auto"
 const config = {
 	kit: {
 		adapter: adapter(),
+		alias: {
+			'my-package-name': 'src/package/index.js',
+		},
 	}
 }
 
